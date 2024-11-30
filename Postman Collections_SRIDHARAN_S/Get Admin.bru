@@ -1,0 +1,15 @@
+meta {
+  name: Get Admin
+  type: http
+  seq: 6
+}
+
+get {
+  url: http://localhost:7001/api/users/admin
+  body: none
+  auth: none
+}
+
+headers {
+  Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NGFiYWJiMTJlZmJjZWJiNzcwOTBlNyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTczMjk1NDExMCwiZXhwIjoxNzMyOTU3NzEwfQ.KOwOea-7eEi7pKA-745rzHKsePcfKyzLod3jGbaAa9Y
+}

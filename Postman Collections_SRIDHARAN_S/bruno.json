@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Postman Collections_SRIDHARAN_S",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

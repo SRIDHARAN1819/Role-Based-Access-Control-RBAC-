@@ -1,0 +1,19 @@
+meta {
+  name: Admin Login Auth Token
+  type: http
+  seq: 9
+}
+
+post {
+  url: http://localhost:7001/api/auth/login
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+  "username" : "admin",
+  "password" : "admin"
+  
+  }
+}

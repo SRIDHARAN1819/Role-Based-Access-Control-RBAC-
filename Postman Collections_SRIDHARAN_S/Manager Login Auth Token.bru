@@ -1,0 +1,19 @@
+meta {
+  name: Manager Login Auth Token
+  type: http
+  seq: 10
+}
+
+post {
+  url: http://localhost:7001/api/auth/login
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+  "username" : "ARUN",
+  "password" : "Arun@123"
+  
+  }
+}

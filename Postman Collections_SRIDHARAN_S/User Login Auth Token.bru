@@ -1,0 +1,19 @@
+meta {
+  name: User Login Auth Token
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://localhost:7001/api/auth/login
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+  "username" : "sridharan",
+  "password" : "test@123"
+  
+  }
+}
